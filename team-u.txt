@@ -1,7 +1,12 @@
 Team U:
 Anhelina Lohvina, C18347
+<<<<<<< HEAD
 Nikolay Kozlovsky
 Maanus Harju
+=======
+Nikolay Kozlovsky, C18206
+Maanus Harju, B04870
+>>>>>>> a051eb33fe591530f1c81ddb1ba3f14236c749c9
  
 
 https://github.com/angelcoder/wad_homowork_1
