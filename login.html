@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="res/images/favicon.ico">
     <link rel="stylesheet" href="res/css/login.css">
+    <script src="res/css/login.js"></script>
     <title>Homework-1_login</title>
 </head>
 
@@ -17,19 +19,17 @@
 
     <div id="login_container">
         <div class="login">
-            <p1>Welcome to PostIt</p1>
-            <p2>Create an account</p2>
-            <p3>or</p3>
-            <p3>Please log in</p3>
-            <p3><br></p3>
+            <h1>Welcome to PostIt</h1>
+            <h2>Create an account</h2>
+            <p>or</p>
+            <p>Please log in</p>
         
-            <input type="text" name="email" id="email" class="form-control input-lg" placeholder="Email" />
-            <input type="password" name="password" id="pwd" class="form-control input-lg" placeholder="Password" />
-        
-            <a class='link' href="index.html"><button class="login-button">Log in</button></a>
+            <input type="email" id="email" placeholder="Email"/>
+            <input type="password" id="pwd" placeholder="Password"/>
             
-          
-            <p2>Forgot password</p2>
+            <button onclick="inputcheck()">Log in</button>
+            
+            <h2>Forgot password</h2>
         </div>
     </div>
 </body>
