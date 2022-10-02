@@ -31,8 +31,11 @@ body a {
 
 /* class selector #1 */
 .page-header {
-  width: 98.8%;
   position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 9px;
 }
 
 /* class selector #2 */
