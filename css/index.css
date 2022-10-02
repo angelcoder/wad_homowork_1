@@ -91,6 +91,12 @@ body a {
   vertical-align: top;
 }
 
+.post-image-like {
+  display: inline-block;
+  width: 10%;
+  vertical-align: bottom;
+}
+
 .profilePlate {
 }
 
