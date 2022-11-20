@@ -74,6 +74,7 @@ body a {
   padding: 16px;
   border-radius: 12px;
   background-color: #A9A9A9;
+  margin-bottom: 40px;
 }
 
 .post-header {
@@ -83,6 +84,15 @@ body a {
   gap: 16px;
   margin-bottom: 8px;
 }
+
+.post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 5px;
+}
+
 
 .post-profile {
   flex: 0 0 auto;
